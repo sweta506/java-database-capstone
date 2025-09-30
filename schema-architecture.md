@@ -7,5 +7,5 @@ This Spring Boot application uses both MVC and REST controllers. Thymeleaf templ
 5. Repository layer performs data access operations. This layer will include MySQL and MongoDB repositries. MySQL uses Spring Data JPA to manage structured ralational data like patients, doctors, appointments and admin records while MongoDB manages document based records like prescriptions.
 6. Database Access are performed by database engines. MySQL stores core entities users, roles, appointments along with all constraints. While MongoDB stores flexible data structure for prescriptions.
 7. Once data is retrieved from database access layer it is mapped to the Java model classes that is used by application layer.
-8. The models are serialized into JSON and sent back to the client as a response in REST controllers. In MVC flows models are passed from controllers to templates where these are rendered as HTML in browser. 
+The models are serialized into JSON and sent back to the client as a response in REST controllers. In MVC flows models are passed from controllers to templates where these are rendered as HTML in browser. 
 ...
